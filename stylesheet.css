@@ -1,0 +1,233 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    background-color: black;
+}
+
+nav {
+    min-height: 69px;
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.9;
+}
+
+nav img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+ul {
+    margin-right: 10px;
+ 
+}
+
+.nav li{
+    display: inline-block;
+    text-decoration: underline;
+    text-align: right;
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 550px) {
+    .nav li{
+        display: block;
+        text-align: right;
+    }
+
+    ul {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+a {
+    color: seashell;
+    opacity: 0.9;
+}
+
+.mission {
+   /* position: relative;
+    top: 69px;
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;*/
+
+/*  background-image: url('C:\Users\Karolina\Desktop\CODE\project tea cozy\images\img-mission-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.mission-bgimg {
+
+    background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+    /*background-size: cover; */
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    height: 700px;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    top: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.mission-banner {
+   
+    text-align: center;
+    opacity: 0.9;
+    background-color: black; 
+    width: 1200px;
+}
+
+h2, h4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.tea-part {
+    margin-top: 120px;
+    max-width: 1000px; 
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.tea-part h2, .tea-part h4 {
+    text-align: center;
+}
+
+.tea-section {
+    margin-top: 20px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right:auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   /* align-content: center;*/
+}
+
+/*.tea1, .tea2, .tea3, .tea4, .tea5 {
+    display: flex;
+    align-items: center;
+}*/
+
+.tea1 img, .tea2 img, .tea3 img, .tea4 img, .tea5 img {
+    height: 200px;
+    max-width:300px;
+    margin: 10px;
+}
+
+.tea1 h4, .tea2 h4, .tea3 h4, .tea4 h4, .tea5 h4 {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.locations-part {
+    height:500px;
+    max-width: 1200px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .locations-part {
+      align-items: baseline;
+    }
+
+    .location1, .location2, .location3 {
+        margin-top: 120px;
+        max-width: 300px;
+        min-height: 350px;
+    }
+}
+
+.locations-h2 {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 550px) {
+    .locations-h2 {
+        top: 100px;
+        margin-bottom: 5px;
+    }
+}
+
+/*.locations-section {
+    height:500px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}*/
+
+.location1, .location2, .location3 {
+    width: 300px;
+    height: 320px;
+    margin-right: 20px;
+    background-color: black;
+    opacity: 0.9;
+  /*  position: relative;
+    bottom: 380px; */
+}
+
+p, h3 {
+    text-align: center;
+    line-height: 2.5;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 750px) {
+    h3, p {
+        font-size: 22px;
+        line-height: 1.5;
+    }
+}
+
+.contact {
+    height:200px;
+    text-align: center;
+    line-height: 2.5;
+    margin-bottom: 100px;
+   /* position:relative;
+    bottom: 470px; */
+}
+
+footer {
+    text-align:left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    /* position: relative;
+    bottom: 470px; */
+}
