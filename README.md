@@ -1,3 +1,4 @@
-# project-responsive-tea-cozy
+# Website of Tea Cozy
 
-I built this project as part of the CodeCademy course. This real-word project was dedicated to create a responsive website of a tea shop.
+This real-word project was dedicated to create a responsive website of a tea shop.
+I built this project as part of the CodeCademy course. 
